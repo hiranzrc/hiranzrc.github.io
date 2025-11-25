@@ -1,0 +1,39 @@
+.theme-toggle{
+    border-radius: 50% !important;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255,255,255,0.3) !important;
+    transition: all 0.3s ease;
+    
+}
+body.light-mode{
+    background-color: #f5f5f5 !important;
+    color: black !important;
+    
+
+}
+body.light-mode h1{
+    color: black !important;
+}
+body.light-mode h2{
+    color: black !important;
+}
+body.light-mode h3{
+    color: black !important;
+}
+body.light-mode .services p{
+    color: black !important;
+}
+body.light-mode .service-box{
+   background-color: lightgray !important;
+}
+body.light-mode .bx {
+    color: gray;
+}
+body.light-mode .bx:hover{
+    color: rgb(57, 57, 57) !important;
+}
